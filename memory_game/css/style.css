@@ -1,19 +1,40 @@
 body {
     text-align: center;
+    margin: 0;
+}
+
+header {
+    background-color: #F15B31;
+    color: #FFFFFF;
+    padding: 30px 20px;
+}
+
+nav {
+    background-color: #00A6B3;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+main {
+    width: 850px;
+    margin: 35px auto;
+}
+
+img {
+    margin: 40px 8px;
 }
 
 h1 {
     font-family: raleway, sans-serif;
-    color: #0D2C40;
     letter-spacing: 1px;
     font-weight: 400;
     font-size: 45px;
     text-transform: uppercase;
+    margin: 0;
 }
 
 h2 {
     font-family: raleway, sans-serif;
-    color: #0D2C40;
     letter-spacing: 1px;
     font-weight: 600;
     font-size: 20px;
@@ -22,12 +43,13 @@ h2 {
 
 a {
     font-family: raleway, sans-serif;
-    color: #F15B31;
     letter-spacing: 1px;
     font-weight: 600;
     font-size: 18px;
     text-decoration: none;
     text-transform: uppercase;
+    margin: 0 20px;
+    color: #FFFFFF;
 }
 
 p {
